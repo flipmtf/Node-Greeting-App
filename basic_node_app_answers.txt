@@ -1,0 +1,7 @@
+**Questions**
+
+1. A node module is a set of functions to include in an application. Think of it as a JavaScript library. 
+
+2. `module.exports` is available for reassignment. Any reassignment of `exports` will not be available outside of the module. 
+
+3. Because `module.exports` is an empty object. So unless you’re planning on the module being a specific object type, use `exports`.
